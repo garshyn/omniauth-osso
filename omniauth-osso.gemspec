@@ -10,8 +10,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/enterprise-oss/omniauth-osso'
   gem.license       = 'BSL'
 
-  gem.add_dependency 'omniauth', '~> 2.0.1'
-  gem.add_dependency 'omniauth-oauth2', '>= 1.6', '< 1.8'
+  gem.add_dependency 'omniauth', '~> 2'
+  gem.add_dependency 'omniauth-oauth2', '>= 1.6', '< 1.9'
   gem.add_development_dependency 'bundler', '~> 2.1'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
